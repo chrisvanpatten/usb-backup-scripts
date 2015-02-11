@@ -15,7 +15,7 @@ DESTINATION="/Volumes/cvp-backup"
 ###
 
 # Define the tempdir where we'll create the TAR file
-TEMPDIR=`mktemp -d /tmp/cvp-backup.XXXXXXXXXX`
+TEMPDIR=`mktemp -d /tmp/usb-backup.XXXXXXXXXX`
 
 # Loop through your source folders
 for i in "${SOURCE[@]}"
