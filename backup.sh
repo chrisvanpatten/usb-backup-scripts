@@ -7,13 +7,11 @@ SOURCE=(
 "/Users/Chris/Websites/Clients"
 )
 
-# Define where we want to put our archive files. Using pwd
-# will put the files in the same directory as this backup
-# script, but you can use a full absolute path too.
-DESTINATION=`pwd`
+# Define where you want to put your archive files
+DESTINATION="/Volumes/cvp-backup"
 
 ###
-# You probably don't need to edit below here.
+# You probably don't need to edit below here
 ###
 
 # Define the tempdir where we'll create the TAR file
