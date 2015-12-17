@@ -1,8 +1,16 @@
 # usb-backup-scripts
 
-A set of scripts for backing up files to a USB drive on Mac OS X.
+A set of scripts for automatiaclly backing up files to a USB drive on Mac OS X.
 
-Full setup instructions coming soon.
+## Using usb-backup-scripts
+
+1. Copy backup.sh to the drive you'd like to backup to
+2. Edit backup.sh to include full paths to the folders you want backed up
+3. Set the path for the Destination to the full path to your drive (`/Volumes/Your-Drive-Name`)
+4. Save backup.applescript as a folder action script, and set it to watch `/Volumes/`. (Note: You'll need to copy/paste the whole file; don't just drop it in the folder actions folder!)
+
+Next time you mount your drive, you'll be prompted with a message asking you to if you'd like to execute the backup script.
+
 
 ## License
 
