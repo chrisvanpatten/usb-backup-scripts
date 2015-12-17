@@ -1,6 +1,6 @@
 # usb-backup-scripts
 
-A set of scripts for automatiaclly backing up files to a USB drive on Mac OS X.
+A set of scripts for automatically backing up files to a USB drive on Mac OS X.
 
 ## Using usb-backup-scripts
 
